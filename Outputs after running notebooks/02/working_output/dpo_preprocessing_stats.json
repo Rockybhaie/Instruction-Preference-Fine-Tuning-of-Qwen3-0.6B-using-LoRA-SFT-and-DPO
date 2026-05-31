@@ -1,0 +1,30 @@
+{
+  "dataset": "HuggingFaceH4/ultrafeedback_binarized",
+  "train_filtering": {
+    "raw": 6000,
+    "too_short": 176,
+    "identical": 3,
+    "low_margin": 257,
+    "duplicates": 3,
+    "kept": 2000
+  },
+  "val_filtering": {
+    "raw": 900,
+    "too_short": 37,
+    "identical": 0,
+    "low_margin": 49,
+    "duplicates": 0,
+    "kept": 300
+  },
+  "preference_margin": {
+    "min_kept": 0.5,
+    "mean": 2.055,
+    "median": 1.5
+  },
+  "filters": {
+    "min_completion_chars": 20,
+    "dedup": "by lowercased prompt prefix",
+    "normalization": "collapse whitespace",
+    "drop_identical_pairs": true
+  }
+}

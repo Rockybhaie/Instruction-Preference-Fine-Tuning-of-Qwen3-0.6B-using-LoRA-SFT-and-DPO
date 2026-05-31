@@ -1,0 +1,42 @@
+{
+  "dataset": "HuggingFaceH4/ultrachat_200k",
+  "train_filtering": {
+    "raw": 6000,
+    "bad_format": 0,
+    "too_short": 2,
+    "duplicates": 0,
+    "length_filtered": 1532,
+    "kept": 2000
+  },
+  "val_filtering": {
+    "raw": 900,
+    "bad_format": 0,
+    "too_short": 1,
+    "duplicates": 0,
+    "length_filtered": 250,
+    "kept": 300
+  },
+  "train_token_len": {
+    "min": 47,
+    "p25": 252,
+    "median": 328,
+    "p75": 411,
+    "max": 512,
+    "mean": 324.8
+  },
+  "val_token_len": {
+    "min": 84,
+    "p25": 233,
+    "median": 323,
+    "p75": 393,
+    "max": 511,
+    "mean": 314.2
+  },
+  "filters": {
+    "min_resp_chars": 20,
+    "min_tokens": 16,
+    "max_tokens": 512,
+    "dedup": "by lowercased prompt prefix",
+    "normalization": "collapse whitespace"
+  }
+}

@@ -1,0 +1,13 @@
+# Pinned versions known to support Qwen3 + TRL SFT/DPO with LoRA.
+# Qwen3 requires transformers >= 4.51. These are installed at the top of each
+# Kaggle notebook; this file documents the environment for reproducibility.
+transformers>=4.51.0
+trl>=0.15.0
+peft>=0.14.0
+datasets>=3.2.0
+accelerate>=1.3.0
+bitsandbytes>=0.45.0
+evaluate>=0.4.3
+sacrebleu>=2.4.3
+bert-score>=0.3.13
+sentencepiece>=0.2.0

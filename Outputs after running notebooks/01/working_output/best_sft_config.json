@@ -1,0 +1,24 @@
+{
+  "trial": "sft4",
+  "config": {
+    "name": "sft4",
+    "r": 16,
+    "alpha": 32,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "lr": 0.0003,
+    "bs": 4,
+    "ga": 4,
+    "epochs": 1
+  },
+  "bleu": 14.398,
+  "bertscore_f1": 18.47,
+  "eval_loss": 1.6297
+}

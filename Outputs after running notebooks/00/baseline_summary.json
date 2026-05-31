@@ -1,0 +1,5 @@
+{
+  "model": "Qwen/Qwen3-0.6B-Base",
+  "mean_bleu": 6.896,
+  "mean_bertscore_f1": -0.16
+}

@@ -1,0 +1,16 @@
+{
+  "trial": "dpo2",
+  "config": {
+    "name": "dpo2",
+    "beta": 0.1,
+    "lr": 1e-05,
+    "bs": 1,
+    "ga": 8,
+    "epochs": 1
+  },
+  "bleu": 14.688,
+  "bertscore_f1": 22.875,
+  "eval_loss": 0.6032,
+  "reward_accuracy": 0.6567,
+  "reward_margin": 0.3074
+}
